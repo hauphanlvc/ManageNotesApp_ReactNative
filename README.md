@@ -14,5 +14,11 @@ Bước 3: Sau khi chạy bước trên,  docker container **managenotesapp** s�
 ```
 docker exec -it managenotesapp /bin/bash   
 cd /managesnotesapp
-npx react-native run-android
+npx react-native start
 ```
+ sau đó ta bật một terminal mới chạy các lệnh sau:
+ ```
+ docker exec -it managenotesapp /bin/bash   
+cd /managesnotesapp
+npx react-native run-android
+ ```
