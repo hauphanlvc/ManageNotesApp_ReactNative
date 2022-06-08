@@ -6,6 +6,7 @@
  * @flow strict-local
  */
 
+import Mytext from 'MyText'; 
 import React from 'react';
 import type {Node} from 'react';
 import {
